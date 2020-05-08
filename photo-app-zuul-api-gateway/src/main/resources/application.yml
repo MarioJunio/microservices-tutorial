@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: zuul
+    
+server:
+  port: 8011
+  
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+      
+app:
+  h2console:
+    url: /users-api/h2-console/**
+      
+  registration:
+    url: /users-api/users
+      
+  login:
+    url: /users-api/users/authentication
+    
+  actuator:
+    zuul:
+      url: /actuator/**
+      
+    users-api:
+      url: /users-api/actuator/**
+
+  jwt:
+    secret: m@rio
+    
+  authorization:
+      name: Authorization
+      prefix: Bearer

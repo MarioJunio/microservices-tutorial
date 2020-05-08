@@ -1,0 +1,32 @@
+server:
+  port: 8012
+
+spring:
+  application:
+    name: PhotoAppConfigServer
+    
+  profiles:
+    active: native
+    
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: file:///Users/mariomarques/mj-workspace/microservices-samples/config-server-files
+        git:
+          uri: https://github.com/MarioJunio/PhotoAppConfiguration.git
+          username: MarioJunio
+          clone-on-start: true
+          
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: bitlyuf
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
+        

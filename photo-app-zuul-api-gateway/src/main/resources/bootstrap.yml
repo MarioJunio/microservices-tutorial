@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8012
+      name: PhotoAppConfigServer
+      
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: bitlyuf

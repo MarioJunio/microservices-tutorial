@@ -1,0 +1,239 @@
+2020-05-06 10:16:35.431  INFO [users-api,,,] 65647 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8012
+2020-05-06 10:16:35.640  INFO [users-api,,,] 65647 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=users-api, profiles=[default], label=null, version=null, state=null
+2020-05-06 10:16:35.641  INFO [users-api,,,] 65647 --- [restartedMain] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-file:///Users/mariomarques/mj-workspace/microservices-samples/config-server-files/users-api.yml'}, BootstrapPropertySource {name='bootstrapProperties-file:///Users/mariomarques/mj-workspace/microservices-samples/config-server-files/application.yml'}]
+2020-05-06 10:16:35.674  INFO [users-api,,,] 65647 --- [restartedMain] b.c.p.PhotoAppUsersApiApplication        : No active profile set, falling back to default profiles: default
+2020-05-06 10:16:36.763  WARN [users-api,,,] 65647 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-env' contains invalid characters, please migrate to a valid format.
+2020-05-06 10:16:37.025  INFO [users-api,,,] 65647 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-06 10:16:37.117  INFO [users-api,,,] 65647 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76ms. Found 1 JPA repository interfaces.
+2020-05-06 10:16:37.247  WARN [users-api,,,] 65647 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-refresh' contains invalid characters, please migrate to a valid format.
+2020-05-06 10:16:37.338  WARN [users-api,,,] 65647 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-05-06 10:16:37.482  WARN [users-api,,,] 65647 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-05-06 10:16:37.845  INFO [users-api,,,] 65647 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d8c09c7b-417a-30bd-a7a4-c3c0d98772ad
+2020-05-06 10:16:38.140  INFO [users-api,,,] 65647 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-05-06 10:16:38.147  INFO [users-api,,,] 65647 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-05-06 10:16:38.151  INFO [users-api,,,] 65647 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-05-06 10:16:38.414  INFO [users-api,,,] 65647 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-06 10:16:38.465  INFO [users-api,,,] 65647 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-06 10:16:38.475  INFO [users-api,,,] 65647 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-06 10:16:38.520  INFO [users-api,,,] 65647 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-06 10:16:38.572  INFO [users-api,,,] 65647 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration' of type [org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-06 10:16:38.585  INFO [users-api,,,] 65647 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' of type [org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-06 10:16:38.590  INFO [users-api,,,] 65647 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mbeanServer' of type [com.sun.jmx.mbeanserver.JmxMBeanServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-06 10:16:39.488  INFO [users-api,,,] 65647 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2020-05-06 10:16:39.500  INFO [users-api,,,] 65647 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-06 10:16:39.501  INFO [users-api,,,] 65647 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-05-06 10:16:39.655  INFO [users-api,,,] 65647 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-06 10:16:39.655  INFO [users-api,,,] 65647 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3959 ms
+2020-05-06 10:16:39.838  WARN [users-api,,,] 65647 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-05-06 10:16:39.839  INFO [users-api,,,] 65647 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-06 10:16:39.853  INFO [users-api,,,] 65647 --- [restartedMain] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@6c1502e9
+2020-05-06 10:16:40.031  INFO [users-api,,,] 65647 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-06 10:16:40.532  INFO [users-api,,,] 65647 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-06 10:16:40.539  INFO [users-api,,,] 65647 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/curso_microservices'
+2020-05-06 10:16:41.341  WARN [users-api,,,] 65647 --- [restartedMain] o.s.c.s.zipkin2.ZipkinAutoConfiguration  : Check result of the [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@3bdcab98}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)}]
+2020-05-06 10:16:42.060  INFO [users-api,,,] 65647 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-05-06 10:16:42.655  INFO [users-api,,,] 65647 --- [restartedMain] o.s.b.a.e.web.ServletEndpointRegistrar   : Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+2020-05-06 10:16:42.844  INFO [users-api,,,] 65647 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-06 10:16:43.002  INFO [users-api,,,] 65647 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.10.Final}
+2020-05-06 10:16:43.304  INFO [users-api,,,] 65647 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-06 10:16:43.548  INFO [users-api,,,] 65647 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-05-06 10:16:44.992  INFO [users-api,,,] 65647 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-06 10:16:45.000  INFO [users-api,,,] 65647 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-06 10:16:45.062  WARN [users-api,,,] 65647 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-05-06 10:16:45.789  WARN [users-api,,,] 65647 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-06 10:16:46.244  INFO [users-api,,,] 65647 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4187ada1, org.springframework.security.web.context.SecurityContextPersistenceFilter@46684da7, org.springframework.security.web.header.HeaderWriterFilter@d5855de, org.springframework.security.web.authentication.logout.LogoutFilter@3b0e7d05, br.com.photoapp.ui.security.filter.AuthenticationFilter@56dab437, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@663f0380, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@509bfdb6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@96251aa, org.springframework.security.web.session.SessionManagementFilter@23e988d2, org.springframework.security.web.access.ExceptionTranslationFilter@3efb17ec, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@26b258c8]
+2020-05-06 10:16:46.283  WARN [users-api,,,] 65647 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-05-06 10:16:46.283  INFO [users-api,,,] 65647 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-06 10:16:46.497  INFO [users-api,,,] 65647 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-06 10:16:47.797  WARN [users-api,,,] 65647 --- [restartedMain] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-05-06 10:16:48.120  INFO [users-api,,,] 65647 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 24 endpoint(s) beneath base path '/actuator'
+2020-05-06 10:16:48.321  INFO [users-api,,,] 65647 --- [restartedMain] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'application-1.springCloudBusInput' has 1 subscriber(s).
+2020-05-06 10:16:48.449  INFO [users-api,,,] 65647 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBusInput
+2020-05-06 10:16:48.525  INFO [users-api,,,] 65647 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel nullChannel
+2020-05-06 10:16:48.537  INFO [users-api,,,] 65647 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel errorChannel
+2020-05-06 10:16:48.580  INFO [users-api,,,] 65647 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBusOutput
+2020-05-06 10:16:48.603  INFO [users-api,,,] 65647 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageHandler errorLogger
+2020-05-06 10:16:48.627  INFO [users-api,,,] 65647 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageHandler org.springframework.cloud.stream.binding.StreamListenerMessageHandler@62ea28bb
+2020-05-06 10:16:48.761  INFO [users-api,,,] 65647 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-05-06 10:16:48.761  INFO [users-api,,,] 65647 --- [restartedMain] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 1 subscriber(s).
+2020-05-06 10:16:48.762  INFO [users-api,,,] 65647 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : started bean '_org.springframework.integration.errorLogger'
+2020-05-06 10:16:53.827  INFO [users-api,,,] 65647 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8012
+2020-05-06 10:16:53.929  INFO [users-api,,,] 65647 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=users-api, profiles=[default], label=null, version=null, state=null
+2020-05-06 10:16:53.930  INFO [users-api,,,] 65647 --- [restartedMain] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-file:///Users/mariomarques/mj-workspace/microservices-samples/config-server-files/users-api.yml'}, BootstrapPropertySource {name='bootstrapProperties-file:///Users/mariomarques/mj-workspace/microservices-samples/config-server-files/application.yml'}]
+2020-05-06 10:16:54.105  INFO [users-api,,,] 65647 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2020-05-06 10:16:54.142  INFO [users-api,,,] 65647 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#7c522e66:0/SimpleConnection@703dcefe [delegate=amqp://guest@127.0.0.1:5672/, localPort= 58143]
+2020-05-06 10:16:54.179  INFO [users-api,,,] 65647 --- [restartedMain] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'application-1.springCloudBusOutput' has 1 subscriber(s).
+2020-05-06 10:16:54.218  INFO [users-api,,,] 65647 --- [restartedMain] c.s.b.r.p.RabbitExchangeQueueProvisioner : declaring queue for inbound: springCloudBus.anonymous.Fgl0nHICT_2uUEy7S84_Dg, bound to: springCloudBus
+2020-05-06 10:16:54.239  INFO [users-api,,,] 65647 --- [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'springCloudBus.anonymous.Fgl0nHICT_2uUEy7S84_Dg.errors' has 1 subscriber(s).
+2020-05-06 10:16:54.239  INFO [users-api,,,] 65647 --- [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'springCloudBus.anonymous.Fgl0nHICT_2uUEy7S84_Dg.errors' has 2 subscriber(s).
+2020-05-06 10:16:54.265  INFO [users-api,,,] 65647 --- [restartedMain] o.s.i.a.i.AmqpInboundChannelAdapter      : started bean 'inbound.springCloudBus.anonymous.Fgl0nHICT_2uUEy7S84_Dg'
+2020-05-06 10:16:54.295  INFO [users-api,,,] 65647 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBus.anonymous.Fgl0nHICT_2uUEy7S84_Dg.errors
+2020-05-06 10:16:54.437  INFO [users-api,,,] 65647 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 58144 (http) with context path ''
+2020-05-06 10:16:54.438  INFO [users-api,,,] 65647 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 58144
+2020-05-06 10:16:54.443  INFO [users-api,,,] 65647 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-05-06 10:16:54.496  INFO [users-api,,,] 65647 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-05-06 10:16:54.556  INFO [users-api,,,] 65647 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-05-06 10:16:54.556  INFO [users-api,,,] 65647 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-05-06 10:16:54.677  INFO [users-api,,,] 65647 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-05-06 10:16:54.677  INFO [users-api,,,] 65647 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-05-06 10:16:54.866  INFO [users-api,,,] 65647 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-05-06 10:16:54.896  INFO [users-api,,,] 65647 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-05-06 10:16:54.896  INFO [users-api,,,] 65647 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-05-06 10:16:54.897  INFO [users-api,,,] 65647 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-05-06 10:16:54.897  INFO [users-api,,,] 65647 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-05-06 10:16:54.897  INFO [users-api,,,] 65647 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-05-06 10:16:54.897  INFO [users-api,,,] 65647 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-05-06 10:16:54.897  INFO [users-api,,,] 65647 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-05-06 10:16:55.128  INFO [users-api,,,] 65647 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-05-06 10:16:55.131  INFO [users-api,,,] 65647 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-05-06 10:16:55.132  INFO [users-api,,,] 65647 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-05-06 10:16:55.138  INFO [users-api,,,] 65647 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1588771015137 with initial instances count: 2
+2020-05-06 10:16:55.147  INFO [users-api,,,] 65647 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application USERS-API with eureka with status UP
+2020-05-06 10:16:55.147  INFO [users-api,,,] 65647 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1588771015147, current=UP, previous=STARTING]
+2020-05-06 10:16:55.149  INFO [users-api,,,] 65647 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERS-API/users-api:a7ab93c566ca82aecb4d292892f0b0d9: registering service...
+2020-05-06 10:16:55.156  INFO [users-api,,,] 65647 --- [restartedMain] b.c.p.PhotoAppUsersApiApplication        : Started PhotoAppUsersApiApplication in 30.71 seconds (JVM running for 36.494)
+2020-05-06 10:16:55.186  INFO [users-api,,,] 65647 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERS-API/users-api:a7ab93c566ca82aecb4d292892f0b0d9 - registration status: 204
+2020-05-06 10:18:55.588  INFO [users-api,,,] 65647 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-06 10:18:55.591  INFO [users-api,,,] 65647 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-05-06 10:18:55.674  INFO [users-api,,,] 65647 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 83 ms
+2020-05-06 10:18:57.795  WARN [users-api,,,] 65647 --- [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@3bdcab98}] z.r.AsyncReporter$BoundedAsyncReporter   : Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2020-05-06 10:18:57.801  WARN [users-api,,,] 65647 --- [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@3bdcab98}] z.r.AsyncReporter$BoundedAsyncReporter   : Dropped 1 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused))
+
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:751) ~[spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin2.sender.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateSenderConfiguration.java:228) ~[spring-cloud-sleuth-zipkin-2.2.1.RELEASE.jar:2.2.1.RELEASE]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:644) ~[spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender.post(RestTemplateSender.java:129) ~[spring-cloud-sleuth-zipkin-2.2.1.RELEASE.jar:2.2.1.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:142) ~[spring-cloud-sleuth-zipkin-2.2.1.RELEASE.jar:2.2.1.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:132) ~[spring-cloud-sleuth-zipkin-2.2.1.RELEASE.jar:2.2.1.RELEASE]
+	at zipkin2.Call$Base.execute(Call.java:380) ~[zipkin-2.19.0.jar:na]
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:285) ~[zipkin-reporter-2.11.0.jar:na]
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:354) [zipkin-reporter-2.11.0.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_241]
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_241]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_241]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_241]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_241]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_241]
+	at java.net.Socket.connect(Socket.java:606) ~[na:1.8.0_241]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175) ~[na:1.8.0_241]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[na:1.8.0_241]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[na:1.8.0_241]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[na:1.8.0_241]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[na:1.8.0_241]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[na:1.8.0_241]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226) ~[na:1.8.0_241]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162) ~[na:1.8.0_241]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056) ~[na:1.8.0_241]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990) ~[na:1.8.0_241]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76) ~[spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53) ~[spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:742) ~[spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	... 9 common frames omitted
+
+2020-05-06 10:19:54.195  INFO [users-api,935a64e30808c8f7,935a64e30808c8f7,true] 65647 --- [http-nio-auto-1-exec-3] b.c.photoapp.ui.service.UserServiceImpl  : Before call userAlbums
+2020-05-06 10:19:54.362 DEBUG [users-api,935a64e30808c8f7,34974a053a7e775d,true] 65647 --- [hystrix-albums-api-1] b.c.photoapp.ui.client.AlbumsApiClient   : [AlbumsApiClient#userAlbums] ---> GET http://albums-api/users/1/albums HTTP/1.1
+2020-05-06 10:19:54.362 DEBUG [users-api,935a64e30808c8f7,34974a053a7e775d,true] 65647 --- [hystrix-albums-api-1] b.c.photoapp.ui.client.AlbumsApiClient   : [AlbumsApiClient#userAlbums] ---> END HTTP (0-byte body)
+2020-05-06 10:19:54.544  INFO [users-api,935a64e30808c8f7,34974a053a7e775d,true] 65647 --- [hystrix-albums-api-1] c.netflix.config.ChainedDynamicProperty  : Flipping property: albums-api.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-05-06 10:19:54.593  INFO [users-api,935a64e30808c8f7,34974a053a7e775d,true] 65647 --- [hystrix-albums-api-1] c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook installed for: NFLoadBalancer-PingTimer-albums-api
+2020-05-06 10:19:54.593  INFO [users-api,935a64e30808c8f7,34974a053a7e775d,true] 65647 --- [hystrix-albums-api-1] c.netflix.loadbalancer.BaseLoadBalancer  : Client: albums-api instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=albums-api,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2020-05-06 10:19:54.600  INFO [users-api,935a64e30808c8f7,34974a053a7e775d,true] 65647 --- [hystrix-albums-api-1] c.n.l.DynamicServerListLoadBalancer      : Using serverListUpdater PollingServerListUpdater
+2020-05-06 10:19:54.633  INFO [users-api,935a64e30808c8f7,34974a053a7e775d,true] 65647 --- [hystrix-albums-api-1] c.netflix.config.ChainedDynamicProperty  : Flipping property: albums-api.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-05-06 10:19:54.635  INFO [users-api,935a64e30808c8f7,34974a053a7e775d,true] 65647 --- [hystrix-albums-api-1] c.n.l.DynamicServerListLoadBalancer      : DynamicServerListLoadBalancer for client albums-api initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=albums-api,current list of Servers=[192.168.100.27:58129],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.100.27:58129;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Wed Dec 31 21:00:00 BRT 1969;	First connection made: Wed Dec 31 21:00:00 BRT 1969;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@5304bf59
+2020-05-06 10:19:54.968 DEBUG [users-api,935a64e30808c8f7,34974a053a7e775d,true] 65647 --- [hystrix-albums-api-1] b.c.photoapp.ui.client.AlbumsApiClient   : [AlbumsApiClient#userAlbums] <--- HTTP/1.1 200 (605ms)
+2020-05-06 10:19:54.968 DEBUG [users-api,935a64e30808c8f7,34974a053a7e775d,true] 65647 --- [hystrix-albums-api-1] b.c.photoapp.ui.client.AlbumsApiClient   : [AlbumsApiClient#userAlbums] connection: keep-alive
+2020-05-06 10:19:54.969 DEBUG [users-api,935a64e30808c8f7,34974a053a7e775d,true] 65647 --- [hystrix-albums-api-1] b.c.photoapp.ui.client.AlbumsApiClient   : [AlbumsApiClient#userAlbums] content-type: application/json
+2020-05-06 10:19:54.969 DEBUG [users-api,935a64e30808c8f7,34974a053a7e775d,true] 65647 --- [hystrix-albums-api-1] b.c.photoapp.ui.client.AlbumsApiClient   : [AlbumsApiClient#userAlbums] date: Wed, 06 May 2020 13:19:54 GMT
+2020-05-06 10:19:54.969 DEBUG [users-api,935a64e30808c8f7,34974a053a7e775d,true] 65647 --- [hystrix-albums-api-1] b.c.photoapp.ui.client.AlbumsApiClient   : [AlbumsApiClient#userAlbums] keep-alive: timeout=60
+2020-05-06 10:19:54.969 DEBUG [users-api,935a64e30808c8f7,34974a053a7e775d,true] 65647 --- [hystrix-albums-api-1] b.c.photoapp.ui.client.AlbumsApiClient   : [AlbumsApiClient#userAlbums] transfer-encoding: chunked
+2020-05-06 10:19:54.969 DEBUG [users-api,935a64e30808c8f7,34974a053a7e775d,true] 65647 --- [hystrix-albums-api-1] b.c.photoapp.ui.client.AlbumsApiClient   : [AlbumsApiClient#userAlbums] 
+2020-05-06 10:19:54.975 DEBUG [users-api,935a64e30808c8f7,34974a053a7e775d,true] 65647 --- [hystrix-albums-api-1] b.c.photoapp.ui.client.AlbumsApiClient   : [AlbumsApiClient#userAlbums] [{"albumId":"album1Id","userId":"1","name":"album 1 name","description":"album 1 description"},{"albumId":"album2Id","userId":"1","name":"album 2 name","description":"album 2 description"}]
+2020-05-06 10:19:54.975 DEBUG [users-api,935a64e30808c8f7,34974a053a7e775d,true] 65647 --- [hystrix-albums-api-1] b.c.photoapp.ui.client.AlbumsApiClient   : [AlbumsApiClient#userAlbums] <--- END HTTP (189-byte body)
+2020-05-06 10:19:54.986  INFO [users-api,935a64e30808c8f7,935a64e30808c8f7,true] 65647 --- [http-nio-auto-1-exec-3] b.c.photoapp.ui.service.UserServiceImpl  : After call userAlbums
+2020-05-06 10:19:55.607  INFO [users-api,,,] 65647 --- [PollingServerListUpdater-0] c.netflix.config.ChainedDynamicProperty  : Flipping property: albums-api.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-05-06 10:20:09.331  INFO [users-api,,,] 65647 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-05-06 10:20:09.338  INFO [users-api,,,] 65647 --- [RMI TCP Connection(2)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application USERS-API with eureka with status DOWN
+2020-05-06 10:20:09.339  WARN [users-api,,,] 65647 --- [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1588771209339, current=DOWN, previous=UP]
+2020-05-06 10:20:09.339  INFO [users-api,,,] 65647 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERS-API/users-api:a7ab93c566ca82aecb4d292892f0b0d9: registering service...
+2020-05-06 10:20:09.348  INFO [users-api,,,] 65647 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERS-API/users-api:a7ab93c566ca82aecb4d292892f0b0d9 - registration status: 204
+2020-05-06 10:20:09.366  INFO [users-api,,,] 65647 --- [RMI TCP Connection(2)-127.0.0.1] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2020-05-06 10:20:10.005  INFO [users-api,,,] 65647 --- [RMI TCP Connection(2)-127.0.0.1] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2020-05-06 10:20:10.005  INFO [users-api,,,] 65647 --- [RMI TCP Connection(2)-127.0.0.1] o.s.i.a.i.AmqpInboundChannelAdapter      : stopped bean 'inbound.springCloudBus.anonymous.Fgl0nHICT_2uUEy7S84_Dg'
+2020-05-06 10:20:10.017  INFO [users-api,,,] 65647 --- [RMI TCP Connection(2)-127.0.0.1] o.s.c.stream.binder.BinderErrorChannel   : Channel 'application-1.springCloudBus.anonymous.Fgl0nHICT_2uUEy7S84_Dg.errors' has 1 subscriber(s).
+2020-05-06 10:20:10.019  INFO [users-api,,,] 65647 --- [RMI TCP Connection(2)-127.0.0.1] o.s.c.stream.binder.BinderErrorChannel   : Channel 'application-1.springCloudBus.anonymous.Fgl0nHICT_2uUEy7S84_Dg.errors' has 0 subscriber(s).
+2020-05-06 10:20:10.038  INFO [users-api,,,] 65647 --- [RMI TCP Connection(2)-127.0.0.1] o.s.i.endpoint.EventDrivenConsumer       : Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-05-06 10:20:10.041  INFO [users-api,,,] 65647 --- [RMI TCP Connection(2)-127.0.0.1] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 0 subscriber(s).
+2020-05-06 10:20:10.041  INFO [users-api,,,] 65647 --- [RMI TCP Connection(2)-127.0.0.1] o.s.i.endpoint.EventDrivenConsumer       : stopped bean '_org.springframework.integration.errorLogger'
+2020-05-06 10:20:10.052  INFO [users-api,,,] 65647 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-06 10:20:10.070  INFO [users-api,,,] 65647 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-05-06 10:20:10.079  INFO [users-api,,,] 65647 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-05-06 10:20:11.018  INFO [users-api,,,] 65647 --- [RMI TCP Connection(2)-127.0.0.1] c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook removed for: NFLoadBalancer-PingTimer-albums-api
+2020-05-06 10:20:11.034  INFO [users-api,,,] 65647 --- [RMI TCP Connection(2)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: bean 'springCloudBusInput'
+2020-05-06 10:20:11.035  INFO [users-api,,,] 65647 --- [RMI TCP Connection(2)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: nullChannel
+2020-05-06 10:20:11.035  INFO [users-api,,,] 65647 --- [RMI TCP Connection(2)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: bean 'errorChannel'
+2020-05-06 10:20:11.035  INFO [users-api,,,] 65647 --- [RMI TCP Connection(2)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: bean 'springCloudBusOutput'
+2020-05-06 10:20:11.035  INFO [users-api,,,] 65647 --- [RMI TCP Connection(2)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: bean '_org.springframework.integration.errorLogger.handler' for component '_org.springframework.integration.errorLogger'
+2020-05-06 10:20:11.035  INFO [users-api,,,] 65647 --- [RMI TCP Connection(2)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: org.springframework.cloud.stream.binding.StreamListenerMessageHandler@62ea28bb
+2020-05-06 10:20:11.036  INFO [users-api,,,] 65647 --- [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2020-05-06 10:20:14.041  INFO [users-api,,,] 65647 --- [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2020-05-06 10:20:14.050  INFO [users-api,,,] 65647 --- [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERS-API/users-api:a7ab93c566ca82aecb4d292892f0b0d9 - deregister  status: 200
+2020-05-06 10:20:14.060  INFO [users-api,,,] 65647 --- [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2020-05-06 10:20:14.061  INFO [users-api,,,] 65647 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-05-06 10:20:14.077  INFO [users-api,,,] 65647 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-05-06 10:20:14.087  INFO [users-api,,,] 65647 --- [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-05-06 10:20:14.090  INFO [users-api,,,] 65647 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-05-06 10:20:14.102  WARN [users-api,,,] 65647 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [RxIoScheduler-1 (Evictor)] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2020-05-06 10:20:14.103  WARN [users-api,,,] 65647 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [RxComputationScheduler-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1081)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2020-05-06 10:20:14.105  WARN [users-api,,,] 65647 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [PollingServerListUpdater-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2020-05-06 10:20:14.106  WARN [users-api,,,] 65647 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [DataPublisher] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2020-05-06 10:20:14.107  WARN [users-api,,,] 65647 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [PollingServerListUpdater-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1088)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2020-05-06 10:20:14.143  INFO [users-api,,,] 65647 --- [Thread-14] c.n.l.PollingServerListUpdater           : Shutting down the Executor Pool for PollingServerListUpdater

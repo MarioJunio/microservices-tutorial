@@ -1,0 +1,17 @@
+spring:
+
+  datasource:
+    #url: jdbc:h2:mem:testdb
+    #driver-class-name: org.h2.Driver
+    url: jdbc:mysql://localhost:3306/curso_microservices
+    username: root
+    password: '{cipher}AQBgTEy0rEb1U+iHbxA1O5DOnqMvuXzW9I9wG8aIR7NE+tk7sgjmaSNYElVMiZugZWMR5o3FYnssyBtMsX+xatlw8iGE7w5L0awtrWG68H5UwVYDkqLw0kIO9SzlZu8Hv91mj7AXvgTfPOEXfxm8ULFNBZsAY7oOQUDGXQ+5HZGnnpWnICfH1o5oWOMtE2DemgdX5j/xRER6vwpChCC9en4N2oCj5VrKsRcIa7e2Sqz6EjW+c/DCQvwXsbJbl8WOThpsZXIfZS3N3AJ7zDj12Jdr9NqLmqajtBM5KAfF3dvVlxdjbfJOhrn0DBpk4PAaBbRsuPR91BRSshFur8RwaYbDr61woCRRkPWiASV1Lg11Xf8kIyAC7PdrYvdS7mVwvaU='
+    
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+
+albums-api:
+  find-by-user-url: http://ALBUMS-API/users/%s/albums

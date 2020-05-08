@@ -1,0 +1,26 @@
+server:
+  port: 0
+  
+spring:
+  application:
+    name: account-manage-api
+  
+  cloud:
+    config:
+      uri: http://localhost:8012
+      name: PhotoAppConfigServer
+    
+  devtools:
+    restart:
+      enabled: true
+      
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: bitlyuf
+      
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8090/eureka

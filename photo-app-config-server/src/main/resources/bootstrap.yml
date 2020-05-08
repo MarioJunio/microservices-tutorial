@@ -1,0 +1,10 @@
+# Symetric encryption
+#encrypt:
+#  key: MyK3y
+  
+# Assymetric encryption
+encrypt:
+  key-store:
+    location: file://${user.home}/mj-workspace/microservices-samples/config-server-files/cert/apiCipherKey.jks
+    alias: apiCipherKey
+    password: m@ario

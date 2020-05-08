@@ -1,0 +1,19 @@
+eureka-discovery-service:
+  credentials:
+    user: mario
+    password: "{cipher}AQCWvrhVZmPMd6JZd+1XBPkRIDAJIaOcFxa4k49cuKqVSEU16yhi2wkmJDBMY+AlXgWPCzed/SHWsAeCfcshLhuQmmCyqLDO+4ThdsWuiiCCDIv5Klo4XtMq99Jae4aoVwR+xzFr+5+QdoKXf05jlQbRV9T/0SAWPkUYqh5GLysyJxWBVp4ks/i25JlXXqit9OlcBQXJLmmmSoYJxYGjFe3CLgrWy4P0HHMHl5tg/8M15l1mK4Pfv8Ld0OiNV49l1bYMuoPoHNigREdMWjLTsu09C+bxShII1N+LgCadl5At7RgPHyEbumgnvH5MUQdrGBTq/uFXANal/BVQ0hvKYCrBd19OY7up/hoUCRF37Y7SpIMzAT2uzhnl+GS1vwAGCmI="
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://${eureka-discovery-service.credentials.user}:${eureka-discovery-service.credentials.password}@localhost:8090/eureka
+
+app:
+  security:
+    ip: 192.168.100.27
+  login:
+    url: /users/authentication
+  jwt:
+    identifier: token
+    expiration: 3600000
+    secret: '{cipher}AQBSySV1mVcEccI8y0aFNZOF9YF2Mzan0lFMum379yXY0HL/zP7kD574erbPVcqG6xBiH1J64dpyZ6hQ3koxlOlD0yKlney0VBGsQBCmjHORhOce+H+pTZvnpdNFF94sctAtrS42v0EH20+WOJRO2eXn3yhH7j8R+F1CtHlvaGrTKhz+pQI9SONCJV0iMp51wQd/eaPH9vNEgbLxu9NCEWhUTOMcU5WfIBBIZpEK+WtOieTj1WW0/PSxe60toCC9eAP5UypjTvxymsee1IT9gLibRiizW78BZc9YoVsrEaFNQHIoTas3OjxjZ+DPNxX2geZeNZFwwqnNXKdYmLOBeaHa5T8dzfvXUz93rzGUte9FJHgzNnpf52Tzh32hbTPUFCA='

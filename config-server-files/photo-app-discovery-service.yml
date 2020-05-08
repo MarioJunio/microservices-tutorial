@@ -1,0 +1,12 @@
+spring:
+  security:
+    user:
+      name: mario
+      password: "{cipher}AQCWvrhVZmPMd6JZd+1XBPkRIDAJIaOcFxa4k49cuKqVSEU16yhi2wkmJDBMY+AlXgWPCzed/SHWsAeCfcshLhuQmmCyqLDO+4ThdsWuiiCCDIv5Klo4XtMq99Jae4aoVwR+xzFr+5+QdoKXf05jlQbRV9T/0SAWPkUYqh5GLysyJxWBVp4ks/i25JlXXqit9OlcBQXJLmmmSoYJxYGjFe3CLgrWy4P0HHMHl5tg/8M15l1mK4Pfv8Ld0OiNV49l1bYMuoPoHNigREdMWjLTsu09C+bxShII1N+LgCadl5At7RgPHyEbumgnvH5MUQdrGBTq/uFXANal/BVQ0hvKYCrBd19OY7up/hoUCRF37Y7SpIMzAT2uzhnl+GS1vwAGCmI="
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://localhost:8090/eureka
