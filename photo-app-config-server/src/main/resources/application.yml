@@ -6,7 +6,7 @@ spring:
     name: PhotoAppConfigServer
     
   profiles:
-    active: native
+    active: git
     
   cloud:
     config:
@@ -16,6 +16,7 @@ spring:
         git:
           uri: https://github.com/MarioJunio/PhotoAppConfiguration.git
           username: MarioJunio
+          password: "{cipher}AQB02yrXkYmqQle7TC2aElX3XEoUltsb2JJtywcXl31hQffy6GQWawo1Ihx9akL36QgNhYAeUvWtqtwkhye5gwSQ676afbfo/c9Wc9IUds0yZv/jPMkLUg66le/Q4N3ezV16nW7Csm2RjhSa1SZQcWemeiQIG22xfXoR+BS+ZMW/fz9e9xadDsyEZG3UMHwu8NtHnBvzSvaPuKRhTNgGoA4jJ8i4+TXyNN8AykIizs02wXExw+d3s+DGmQcLFe3njiJVakiNMyepFfYRiDC59AdVzPqg4mewRD4rI8VMfw6Ktf2LmIdgQRu2UONpujdDWQMlVYjD8Qc2d8birDWBO2sTo1qnDye1mMDjFCRHOV8WGB2Umvp4Vo22wzjM+hhgNt8="
           clone-on-start: true
           
   rabbitmq:
