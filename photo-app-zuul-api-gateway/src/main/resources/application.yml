@@ -1,9 +1,17 @@
 spring:
+
   application:
     name: zuul
     
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: bitlyuf
+    
 server:
   port: 8011
+  
   
 management:
   endpoints:
@@ -12,9 +20,6 @@ management:
         include: '*'
       
 app:
-  h2console:
-    url: /users-api/h2-console/**
-      
   registration:
     url: /users-api/users
       

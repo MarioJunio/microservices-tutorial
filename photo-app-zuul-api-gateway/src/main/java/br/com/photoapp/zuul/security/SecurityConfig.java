@@ -29,7 +29,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 		http.csrf().disable().headers().frameOptions().disable();
 		
 		http.authorizeRequests()
-			.antMatchers(env.getProperty("app.h2console.url")).permitAll()
 			.antMatchers(env.getProperty("app.actuator.zuul.url")).permitAll()
 			.antMatchers(env.getProperty("app.actuator.users-api.url")).permitAll()
 			.antMatchers(HttpMethod.POST, env.getProperty("app.registration.url")).permitAll()
