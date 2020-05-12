@@ -34,7 +34,7 @@ public class UserEntity implements Serializable {
 	private Long id;
 
 	@Column(name = "user_id", nullable = false, unique = true)
-	private String userId;
+	private String userId;  
 
 	@NotBlank(message = "First name is required")
 	private String firstname;
