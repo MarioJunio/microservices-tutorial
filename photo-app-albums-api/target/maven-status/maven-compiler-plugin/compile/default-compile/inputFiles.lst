@@ -1,0 +1,6 @@
+/Users/mariomarques/mj-workspace/microservices-samples/photo-app-albums-api/src/main/java/com/appsdeveloperblog/photoapp/api/albums/service/AlbumsService.java
+/Users/mariomarques/mj-workspace/microservices-samples/photo-app-albums-api/src/main/java/com/appsdeveloperblog/photoapp/api/albums/service/AlbumsServiceImpl.java
+/Users/mariomarques/mj-workspace/microservices-samples/photo-app-albums-api/src/main/java/com/appsdeveloperblog/photoapp/api/albums/ui/model/AlbumResponseModel.java
+/Users/mariomarques/mj-workspace/microservices-samples/photo-app-albums-api/src/main/java/com/appsdeveloperblog/photoapp/api/albums/data/AlbumEntity.java
+/Users/mariomarques/mj-workspace/microservices-samples/photo-app-albums-api/src/main/java/com/appsdeveloperblog/photoapp/api/albums/io/controllers/AlbumsController.java
+/Users/mariomarques/mj-workspace/microservices-samples/photo-app-albums-api/src/main/java/com/appsdeveloperblog/photoapp/api/albums/PhotoAppApiAlbumsApplication.java

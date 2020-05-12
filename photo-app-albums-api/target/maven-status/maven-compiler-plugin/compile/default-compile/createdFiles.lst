@@ -1,0 +1,7 @@
+com/appsdeveloperblog/photoapp/api/albums/data/AlbumEntity.class
+com/appsdeveloperblog/photoapp/api/albums/service/AlbumsServiceImpl.class
+com/appsdeveloperblog/photoapp/api/albums/PhotoAppApiAlbumsApplication.class
+com/appsdeveloperblog/photoapp/api/albums/service/AlbumsService.class
+com/appsdeveloperblog/photoapp/api/albums/ui/model/AlbumResponseModel.class
+com/appsdeveloperblog/photoapp/api/albums/io/controllers/AlbumsController.class
+com/appsdeveloperblog/photoapp/api/albums/io/controllers/AlbumsController$1.class
