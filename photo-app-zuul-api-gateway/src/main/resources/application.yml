@@ -6,12 +6,8 @@ spring:
   application:
     name: zuul
     
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: bitlyuf
-    
+ribbon:
+  ReadTimeout: 60000
   
 management:
   endpoints:

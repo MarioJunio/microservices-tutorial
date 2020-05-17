@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    config:
+      uri: http://172.31.31.115:8012
+      name: PhotoAppConfigServer
+      
+  rabbitmq:
+    host: 172.31.31.115
+    port: 5672
+    username: guest
+    password: bitlyuf       

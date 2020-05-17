@@ -5,7 +5,7 @@
 # Assymetric encryption
 encrypt:
   key-store:
-    #location: file:///Users/mariomarques/mj-workspace/microservices-samples/photo-app-config-server/cert/apiCipherKey.jks
-    location: file:/apiCipherKey.jks
+    location: file:///Users/mariomartins/mj-workspace/microservices-tutorial/config-server-files/cert/apiCipherKey.jks
+    #location: file:/apiCipherKey.jks
     alias: apiCipherKey
     password: m@ario
